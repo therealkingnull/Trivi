@@ -1,5 +1,5 @@
 {
-    "name": "Trivia API",
+    "name": "Trivi",
     "version": "1.0.0",
     "description": "Gives you unlimited trivia questions in a JSON format",
     "main": "index.js",
@@ -14,15 +14,15 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/therealkingnull/Trivia-API.git"
+      "url": "git+https://github.com/therealkingnull/Trivi.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/therealkingnull/Trivia-API/issues"
+      "url": "https://github.com/therealkingnull/Trivi/issues"
     },
-    "homepage": "https://github.com/therealkingnull/Trivia-API",
+    "homepage": "https://github.com/therealkingnull/Trivi",
     "dependencies": {
       "express": "^4.16.4",
       "limiting-middleware": "^1.3.2"

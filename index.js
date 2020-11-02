@@ -12,29 +12,21 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    var str = "Check out the repository on github";
-var result = str.link("https://github.com/therealkingnull/Halloween-API");
-  res.send('Add /halloween_joke, /halloween_fact, /halloween_movie, or /halloween_image to the end of the URL to get your data <br>' + result + '</br>');
+    var string = "here";
+var link = string.link("https://github.com/therealkingnull/Trivi");
+   res.send("View a list of endpoints " + link)
 });
 
-app.get('/ping', (req, res) => {
-  res.send('pong');
-});
+//app.get('/ping', (req, res) => {
+  //res.send('pong');
+//});
 
 app.get('/trivia', (req, res) => {
   res.json(randomHalloweenFact());
 });
 
-app.get('/halloween_joke', (req, res) => {
-  res.json(randomHalloweenJoke());
-});
-
-app.get('/halloween_image', (req, res) => {
-  res.json(randomHalloweenImage());
-});
-
-app.get('/halloween_movie', (req, res) => {
-  res.json(randomHalloweenMovie());
+app.get('/search', (req, res) => {
+res.send('hi');
 });
 
 
