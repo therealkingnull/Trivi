@@ -4,13 +4,24 @@ const randomTriviaQuestion = () => {
   return data[Math.floor(Math.random() * data.length)];
 }
 
-const searchByDifficulty = () => {
-    let args = window.location.href.substring(52);
-    var result = _.find(data.difficulty, {'difficulty': args});
-        if (!result)
-            console.log('Nothing found');
-        else
-            console.log("got something");
-}
+const randomN = (data, n) => {
+    const limit = data.length < n ? data.length : n;
+    const randomIndicesSet = new Set();
+  
+    while (randomIndicesSet.size < limit) {
+      const randomIndex = Math.floor(Math.random() * data.length);
+      if (!randomIndicesSet.has(randomIndex)) {
+        randomIndicesSet.add(randomIndex);
+      }
+    }
+  
+    return Array.from(randomIndicesSet).map(randomIndex => {
+      return data[randomIndex];
+    });
+  };
 
-module.exports = {data, randomTriviaQuestion}
+  const searchByDifficulty = (difficulty, n) => {
+    return randomN(data.filter(data => data.difficulty === difficulty), n);
+  };
+
+module.exports = {data, randomTriviaQuestion, randomN, searchByDifficulty}

@@ -25,9 +25,9 @@ app.get('/trivia', (req, res) => {
   res.json(randomHalloweenFact());
 });
 
-app.get('/search_by_difficulty', (req, res) => {
-res.json(searchByDifficulty());
-});
+app.get('/search_by_difficulty/:type', (req, res) => {
+    res.json(searchByDifficulty(req.params.difficulty, 1));
+  });
 
 
 

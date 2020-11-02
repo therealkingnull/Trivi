@@ -1,5 +1,10 @@
 [
     {
-        "Test": "hi"
+        "Test": "hi",
+        "difficulty": "1"
+    },
+    {
+        "hi": "cool",
+        "difficulty": "1"
     }
 ]
