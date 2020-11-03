@@ -10,7 +10,7 @@
     {
         "id": "2",
         "question": "Who discovered the United States of America?",
-        "difficulty": "3",
+        "difficulty": "1",
         "category": "USA",
         "tag": "Discovery",
         "answer": "Christopher Columbus"
@@ -38,5 +38,29 @@
         "category": "USA",
         "tag": "Landmarks",
         "answer": "South Dakota"
+    },
+    {
+        "id": "6",
+        "question": "Which planet in our solar system has the most moons?",
+        "difficulty": "3",
+        "category": "Space",
+        "tag": "Moons",
+        "answer": "Jupiter"
+    },
+    {
+        "id": "7",
+        "question": "Which meat dish is very popular during the Super Bowl?",
+        "difficulty": "4",
+        "category": "Sports",
+        "tag": "Super Bowl",
+        "answer": "Chicken Wings"
+    },
+    {
+        "id": "8",
+        "question": "Who composed the popular Christmas song 'Jingle Bells'?",
+        "difficulty": "5",
+        "category": "Music",
+        "tag": "Composers",
+        "Answer": "James Lord Pierpont"
     }
 ]
