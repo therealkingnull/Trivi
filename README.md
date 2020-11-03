@@ -1,4 +1,4 @@
-# Trivia API
+# Trivi
  The official repository for the trivia api, Trivi.
  
  ## About
