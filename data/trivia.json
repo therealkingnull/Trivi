@@ -62,5 +62,29 @@
         "category": "Music",
         "tag": "Composers",
         "Answer": "James Lord Pierpont"
+    },
+    {
+        "id": "9",
+        "question": "Who was the 'Queen Of Pop'?",
+        "difficulty": "4",
+        "category": "Music",
+        "tag": "Musicians",
+        "Answer": "Madonna"
+    },
+    {
+        "id": "10",
+        "question": "What is the biggest selling single of all time?",
+        "difficulty": "4",
+        "category": "Music",
+        "tag": "Songs",
+        "Answer": "Candle In The Wind"
+    },
+    {
+        "id": "11",
+        "question": "Who was the lead singer of the band 'Queen'?",
+        "difficulty": "5",
+        "category": "Music",
+        "tag": "Musicians",
+        "Answer": "Freddie Mercury"
     }
 ]
