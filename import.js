@@ -1,5 +1,5 @@
 const data = require('./data/trivia.json');
-const _ = require('lodash');
+
 const randomTriviaQuestion = () => {
   return data[Math.floor(Math.random() * data.length)];
 }
@@ -24,4 +24,4 @@ const randomN = (data, n) => {
     return randomN(data.filter(data => data.difficulty === difficulty), n);
   };
 
-module.exports = {data, randomTriviaQuestion, randomN, searchByDifficulty}
+module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty }
