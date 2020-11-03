@@ -25,7 +25,7 @@ app.get('/trivia', (req, res) => {
   res.json(randomTriviaQuestion());
 });
 
-app.get('/search_by_difficulty/:type', (req, res) => {
+app.get('/search_by_difficulty/:difficulty', (req, res) => {
     res.json(searchByDifficulty(req.params.difficulty, 1));
   });
 
