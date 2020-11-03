@@ -30,7 +30,7 @@ app.get('/search_by_difficulty/:difficulty', (req, res) => {
   });
 
  app.get('/amount/:amount', (req, res) => {
-    res.json(triviaAmount(req.params.amount, amount));
+    res.json(triviaAmount(req.params.amount, req.perams.amount));
   });
 
 app.use((err, req, res, next) => {

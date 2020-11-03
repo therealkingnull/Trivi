@@ -25,7 +25,14 @@ const randomN = (dataArray, n) => {
   };
 
   //Amount of trivia based on number given by user
-  const triviaAmount = (amount) => randomN(data, amount);
+  const triviaAmount = (amount) => {
+      if(amount > 50) {
+          return
+      }
+      else {
+      return randomN(data, amount);
+      }
+  };
 
 
   //Search by difficulty
