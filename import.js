@@ -20,8 +20,8 @@ const randomN = (data, n) => {
     });
   };
 
-  const searchByDifficulty = (difficulty, n) => {
-    return randomN(data.filter(data => data.difficulty === difficulty), n);
+  const searchByDifficulty = (difficulty1, n) => {
+    return randomN(data.filter(data => data.difficulty === difficulty1), n);
   };
 
 module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty }
