@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { data, randomTriviaQuestion, randomN, searchByDifficulty, triviaAmount } = require('./import');
+const { data, randomTriviaQuestion, randomN, searchByDifficulty } = require('./import');
 
 const app = express();
 

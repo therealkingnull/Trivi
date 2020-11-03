@@ -24,7 +24,7 @@ const randomN = (dataArray, n) => {
     });
   };
 
-  
+
   //Search by difficulty
   const searchByDifficulty = (difficulty, n) => {
     return randomN(data.filter(data => data.difficulty === difficulty), n);
@@ -32,4 +32,4 @@ const randomN = (dataArray, n) => {
 
 
   //Export
-module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty, triviaAmount }
+module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty }
