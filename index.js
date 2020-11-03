@@ -22,7 +22,7 @@ var link = string.link("https://github.com/therealkingnull/Trivi");
 //});
 
 app.get('/trivia', (req, res) => {
-  res.json(randomHalloweenFact());
+  res.json(randomTriviaQuestion());
 });
 
 app.get('/search_by_difficulty/:type', (req, res) => {
