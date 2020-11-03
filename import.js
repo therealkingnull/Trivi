@@ -24,17 +24,7 @@ const randomN = (dataArray, n) => {
     });
   };
 
-  //Amount of trivia based on number given by user
-  const triviaAmount = (amount) => {
-      if(amount > 50) {
-          return
-      }
-      else {
-      return randomN(data, amount);
-      }
-  };
-
-
+  
   //Search by difficulty
   const searchByDifficulty = (difficulty, n) => {
     return randomN(data.filter(data => data.difficulty === difficulty), n);

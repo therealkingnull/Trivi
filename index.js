@@ -29,10 +29,6 @@ app.get('/search_by_difficulty/:difficulty', (req, res) => {
     res.json(searchByDifficulty(req.params.difficulty, 1));
   });
 
- app.get('/amount/:amount', (req, res) => {
-    res.json(triviaAmount(req.params.amount, req.perams.amount));
-  });
-
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
 
@@ -42,4 +38,4 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 3005;
-app.listen(PORT, () => console.log(`listening on ${PORT}`));
+app.listen(PORT, () => console.log(`im all good on ${PORT}`));
