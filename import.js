@@ -4,19 +4,19 @@ const randomTriviaQuestion = () => {
   return data[Math.floor(Math.random() * data.length)];
 }
 
-const randomN = (data, n) => {
-    const limit = data.length < n ? data.length : n;
+const randomN = (dataArray, n) => {
+    const limit = dataArray.length < n ? dataArray.length : n;
     const randomIndicesSet = new Set();
   
     while (randomIndicesSet.size < limit) {
-      const randomIndex = Math.floor(Math.random() * data.length);
+      const randomIndex = Math.floor(Math.random() * dataArray.length);
       if (!randomIndicesSet.has(randomIndex)) {
         randomIndicesSet.add(randomIndex);
       }
     }
   
     return Array.from(randomIndicesSet).map(randomIndex => {
-      return data[randomIndex];
+      return dataArray[randomIndex];
     });
   };
 
