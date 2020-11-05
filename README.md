@@ -32,13 +32,13 @@ The endpoints of the api are as follows:
 
 (The difficulty is rated on a scale from 1-5, with 5 being the hardest and 1 being the easiest.)
 
-[https://triviapi.herokuapp.com/difficulty={difficulty}](https://triviapi.herokuapp.com/search_by_difficulty/{your_difficulty_here})
+[https://triviapi.herokuapp.com/difficulty={difficulty}](https://triviapi.herokuapp.com/search_by_difficulty/{difficulty})
 
 ***
 
 ### Get A Random Trivia Question By Difficulty And Category:
 
-[https://triviapi.herokuapp.com/difficulty={difficulty}&category={category}]([https://triviapi.herokuapp.com/difficulty={difficulty}&category={category})
+[https://triviapi.herokuapp.com/difficulty={difficulty}&category={category}](https://triviapi.herokuapp.com/difficulty={difficulty}&category={category})
 
 ***
 
