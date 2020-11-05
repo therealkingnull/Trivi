@@ -82,9 +82,17 @@
     {
         "id": "11",
         "question": "Who was the lead singer of the band 'Queen'?",
-        "difficulty": "5",
+        "difficulty": "3",
         "category": "Music",
         "tag": "Musicians",
         "Answer": "Freddie Mercury"
+    },
+    {
+        "id": "12",
+        "question": "Bruno Mars' dad nicknamed him 'Bruno' because he resembled an athlete from which sport?",
+        "difficulty": "5",
+        "category": "Music",
+        "tag": "Musicians",
+        "Answer": "Wrestling"
     }
 ]

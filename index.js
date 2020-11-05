@@ -1,6 +1,6 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
-const { data, randomTriviaQuestion, randomN, searchByDifficulty } = require('./import');
+const { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth } = require('./import');
 
 const app = express();
 
@@ -28,6 +28,12 @@ app.get('/trivia', (req, res) => {
 app.get('/search_by_difficulty/:difficulty', (req, res) => {
     res.json(searchByDifficulty(req.params.difficulty, 1));
   });
+
+app.get('/search_by_difficulty/:difficulty/and_search_by_category/:category', (req, res) => {
+        var difficulty = req.params.difficulty;
+        var category = req.params.category; 
+     res.json(searchByBoth(difficulty, category, 1));
+});
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
