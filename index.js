@@ -35,7 +35,7 @@ app.get('/search_by_difficulty/:difficulty/and_search_by_category/:category', (r
      res.json(searchByBoth(difficulty, category, 1));
 });
 
-app.get('difficulty=:difficulty&category=:category', (req, res) => {
+app.get('/difficulty=:difficulty&category=:category', (req, res) => {
     var difficulty = req.params.difficulty;
     var category = req.params.category; 
  res.json(searchByBoth(difficulty, category, 1));
