@@ -25,15 +25,9 @@ app.get('/trivia', (req, res) => {
   res.json(randomTriviaQuestion());
 });
 
-app.get('/search_by_difficulty/:difficulty', (req, res) => {
+app.get('/difficulty=:difficulty', (req, res) => {
     res.json(searchByDifficulty(req.params.difficulty, 1));
   });
-
-app.get('/search_by_difficulty/:difficulty/and_search_by_category/:category', (req, res) => {
-        var difficulty = req.params.difficulty;
-        var category = req.params.category; 
-     res.json(searchByBoth(difficulty, category, 1));
-});
 
 app.get('/difficulty=:difficulty&category=:category', (req, res) => {
     var difficulty = req.params.difficulty;
