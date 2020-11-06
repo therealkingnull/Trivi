@@ -4,6 +4,8 @@ const { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth, s
 
 const app = express();
 
+app.set('case sensitive routing', true);
+
 app.use(new LimitingMiddleware().limitByIp());
 
 app.use((req, res, next) => {
