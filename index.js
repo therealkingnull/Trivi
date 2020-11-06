@@ -30,13 +30,15 @@ app.get('/difficulty=:difficulty', (req, res) => {
   });
 
 app.get('/category=:category', (req, res) => {
-    if (req.params.category.toLowerCase() !== req.perams.category) {
-        var parsedUrl = url.parse(req.params.category)
-        parsedUrl.pathname = parsedUrl.pathname.toLowerCase()
-        res.redirect(url.format(parsedUrl))
-      } else {
-        next()
-      }
+    var url = require('url');
+    return function _lowercasePaths(req, res, next) {
+        if (req.path.toLowerCase() !== req.path) {
+          var parsedUrl = url.parse(req.originalUrl)
+          parsedUrl.pathname = parsedUrl.pathname.toLowerCase()
+          res.redirect(url.format(parsedUrl))
+        } else {
+          next()
+        }
       function next() {
     res.json(searchByCategory(req.params.category, 1))
       }
