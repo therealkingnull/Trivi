@@ -39,7 +39,7 @@ const searchById = (id, n) => {
 
 //Search by category
 const searchByCategory = (category, n) => {
-    return randomN(data.filter(data => data.category === category && data.category.length != 0), n);
+    return randomN(data.filter(data => data.category === category), n);
   };
 
 
