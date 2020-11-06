@@ -33,13 +33,13 @@ const randomN = (dataArray, n) => {
 
 // Search by category
 const searchByCategory = (category, n) => {
-    return randomN(data.filter(data => data.category.toLowerCase() === category), n);
+    return randomN(data.filter(data => data.category.toUpperCase() === category), n);
   };
 
 
   //Search by difficulty & category
   const searchByBoth = (difficulty, category, n) => {
-    return randomN(data.filter(data => data.difficulty === difficulty && data.category === category), n);
+    return randomN(data.filter(data => data.difficulty === difficulty && data.category.toUpperCase === category), n);
   };
 
 

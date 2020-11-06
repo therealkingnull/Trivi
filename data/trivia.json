@@ -3,7 +3,7 @@
         "id": "1",
         "question": "How many states are in the United States of America?",
         "difficulty": "1",
-        "category": "USA",
+        "category": "usa",
         "tag": "States",
         "answer": "50"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "question": "Who discovered the United States of America?",
         "difficulty": "1",
-        "category": "USA",
+        "category": "usa",
         "tag": "Discovery",
         "answer": "Christopher Columbus"
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "question": "In what year was the United States of America discovered?",
         "difficulty": "2",
-        "category": "USA",
+        "category": "usa",
         "tag": "Discovery",
         "answer": "1492"
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "question": "Who was the first president to live in the White House?",
         "difficulty": "4",
-        "category": "USA",
+        "category": "usa",
         "tag": "Living",
         "answer": "John Adams"
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "question": "What state is Mount Rushmore located in?",
         "difficulty": "1",
-        "category": "USA",
+        "category": "usa",
         "tag": "Landmarks",
         "answer": "South Dakota"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "question": "Which planet in our solar system has the most moons?",
         "difficulty": "3",
-        "category": "Space",
+        "category": "space",
         "tag": "Moons",
         "answer": "Jupiter"
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "question": "Which meat dish is very popular during the Super Bowl?",
         "difficulty": "4",
-        "category": "Sports",
+        "category": "sports",
         "tag": "Super Bowl",
         "answer": "Chicken Wings"
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "question": "Who composed the popular Christmas song 'Jingle Bells'?",
         "difficulty": "5",
-        "category": "Music",
+        "category": "music",
         "tag": "Composers",
         "Answer": "James Lord Pierpont"
     },
@@ -67,7 +67,7 @@
         "id": "9",
         "question": "Who was the 'Queen Of Pop'?",
         "difficulty": "4",
-        "category": "Music",
+        "category": "music",
         "tag": "Musicians",
         "Answer": "Madonna"
     },
@@ -75,7 +75,7 @@
         "id": "10",
         "question": "What is the biggest selling single of all time?",
         "difficulty": "4",
-        "category": "Music",
+        "category": "music",
         "tag": "Songs",
         "Answer": "Candle In The Wind"
     },
@@ -83,7 +83,7 @@
         "id": "11",
         "question": "Who was the lead singer of the band 'Queen'?",
         "difficulty": "3",
-        "category": "Music",
+        "category": "music",
         "tag": "Musicians",
         "Answer": "Freddie Mercury"
     },
@@ -91,7 +91,7 @@
         "id": "12",
         "question": "Bruno Mars' dad nicknamed him 'Bruno' because he resembled an athlete from which sport?",
         "difficulty": "5",
-        "category": "Music",
+        "category": "music",
         "tag": "Musicians",
         "Answer": "Wrestling"
     }
