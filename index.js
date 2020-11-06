@@ -30,7 +30,7 @@ app.get('/difficulty=:difficulty', (req, res) => {
   });
 
 app.get('/category=:category', (req, res) => {
-    if (searchByCategory(req.params.category.toLowerCase(), 1) === []) {
+    if (searchByCategory(req.params.category.toLowerCase(), 1) === "") {
         res.json({"error": "No data found!"})
     }
     else {
