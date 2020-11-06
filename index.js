@@ -30,18 +30,7 @@ app.get('/difficulty=:difficulty', (req, res) => {
   });
 
 app.get('/category=:category', (req, res) => {
-    var url = require('url');
-    return function _lowercasePaths(req, res, next) {
-        if (req.path.toLowerCase() !== req.path) {
-          var parsedUrl = url.parse(req.originalUrl)
-          parsedUrl.pathname = parsedUrl.pathname.toLowerCase()
-          res.redirect(url.format(parsedUrl))
-        } else {
-          next()
-        }
-      function next() {
     res.json(searchByCategory(req.params.category, 1))
-      }
 });
 
 app.get('/id=:id', (req, res) => {
