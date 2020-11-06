@@ -2,9 +2,21 @@
  The official repository for the trivia api, Trivi.
  
  ## About
+ 
  Trivi can be used to create trivia related challenges, games, or apps to play with groups of people. You can use the api to get random questions, and you can even sort them in many different ways; making the experience better for you.
  
  ***
+
+## Categories
+
+The categories that are included in the API are as follows:
+
+<li>USA</li>
+<li>Music</li>
+<li>Space</li>
+<li>Sports</li>
+
+***
 
 ## Endpoints
 
@@ -20,7 +32,13 @@ The endpoints of the api are as follows:
 
 (The difficulty is rated on a scale from 1-5, with 5 being the hardest and 1 being the easiest.)
 
-[https://triviapi.herokuapp.com/search_by_difficulty/{your_difficulty_here}](https://triviapi.herokuapp.com/search_by_difficulty/{your_difficulty_here})
+[https://triviapi.herokuapp.com/difficulty={difficulty}](https://triviapi.herokuapp.com/search_by_difficulty/{difficulty})
+
+***
+
+### Get A Random Trivia Question By Difficulty And Category:
+
+[https://triviapi.herokuapp.com/difficulty={difficulty}&category={category}](https://triviapi.herokuapp.com/difficulty={difficulty}&category={category})
 
 ***
 
