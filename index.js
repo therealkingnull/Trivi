@@ -1,7 +1,7 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
 const { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth, searchByCategory, searchById } = require('./import');
-const lowercasePaths = require("express-lowercase-paths")
+var lowercasePaths = require("express-lowercase-paths");
 
 const app = express();
 
