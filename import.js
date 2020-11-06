@@ -33,7 +33,7 @@ const randomN = (dataArray, n) => {
 
 // Search by category
 const searchByCategory = (category, n) => {
-    return randomN(data.filter(data => data.category === category), n);
+    return randomN(data.filter(data => data.category === category.toLowerCase()), n);
   };
 
 
