@@ -1,6 +1,7 @@
 const express = require('express');
 const LimitingMiddleware = require('limiting-middleware');
 const { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth, searchByCategory, searchById } = require('./import');
+const router = express.Router({caseSensitive: true});
 
 const app = express();
 
