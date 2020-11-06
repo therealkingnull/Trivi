@@ -39,7 +39,7 @@ app.get('/id=:id', (req, res) => {
 
 app.get('/difficulty=:difficulty&category=:category', (req, res) => {
     var difficulty = req.params.difficulty;
-    var category = req.params.category; 
+    var category = req.params.category.toLowerCase(); 
  res.json(searchByBoth(difficulty, category, 1));
 });
 
