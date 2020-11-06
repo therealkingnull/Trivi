@@ -31,7 +31,13 @@ const randomN = (dataArray, n) => {
   };
 
 
-// Search by category
+//Search by id
+const searchById = (id, n) => {
+    return randomN(data.filter(data => data.id === id), n);
+  };
+
+
+//Search by category
 const searchByCategory = (category, n) => {
     return randomN(data.filter(data => data.category === category), n);
   };
@@ -44,4 +50,4 @@ const searchByCategory = (category, n) => {
 
 
   //Export
-module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth, searchByCategory }
+module.exports = { data, randomTriviaQuestion, randomN, searchByDifficulty, searchByBoth, searchByCategory, searchById }
