@@ -30,7 +30,7 @@ app.get('/difficulty=:difficulty', (req, res) => {
   });
 
 app.get('/category=:category', (req, res) => {
-    res.json(searchByCategory(req.params.category, 1))
+    res.json(searchByCategory(req.params.category.toLowerCase(), 1))
 });
 
 app.get('/id=:id', (req, res) => {
