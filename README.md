@@ -11,10 +11,10 @@
 
 The categories that are included in the API are as follows:
 
-<li>USA</li>
-<li>Music</li>
-<li>Space</li>
-<li>Sports</li>
+<li>usa</li>
+<li>music</li>
+<li>space</li>
+<li>sports</li>
 
 ***
 
