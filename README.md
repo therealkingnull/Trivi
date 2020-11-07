@@ -1,5 +1,12 @@
-# Trivi
- The official repository for the trivia api, Trivi.
+<p align="center">
+  <a href="https://github.com/therealkingnull/trivi">
+    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align="center">Trivi</h3>
+  
+
+<p align="center">The official repository for the trivia api, Trivi.</p>
+
  
  ## About
  
