@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/therealkingnull/trivi">
-    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Trivi</h3>
   
